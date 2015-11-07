@@ -1,0 +1,741 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"Pr",
+				"PriQueue"
+			],
+			[
+				"node",
+				"nodeMovementsRandom"
+			],
+			[
+				"send",
+				"sendpingpacket"
+			],
+			[
+				"enc",
+				"enc_len"
+			],
+			[
+				"msg",
+				"msg_len"
+			],
+			[
+				"poly",
+				"poly_len"
+			],
+			[
+				"ply",
+				"poly_len"
+			],
+			[
+				"ms",
+				"msg_len"
+			],
+			[
+				"rout",
+				"route"
+			],
+			[
+				"dist",
+				"dist_matrix"
+			],
+			[
+				"dis",
+				"dist"
+			],
+			[
+				"dsi",
+				"dist_matrix"
+			],
+			[
+				"p",
+				"pk_time"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"pk",
+				"pkt_size_rem"
+			],
+			[
+				"o",
+				"output_rate"
+			],
+			[
+				"b",
+				"bkt_size"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"res",
+				"resFD"
+			],
+			[
+				"fil",
+				"fileFD"
+			],
+			[
+				"req",
+				"reqFD"
+			],
+			[
+				"ns",
+				"ns-allinone-2"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"dec",
+				"decrypt"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"de",
+				"development"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"mysql_f",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"ad",
+				"addr2"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"onmo",
+				"onmouseout	Attr"
+			],
+			[
+				"top",
+				"topOldIndex"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"onmouse",
+				"onmouseover	Attr"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"co",
+				"cookie_value"
+			],
+			[
+				"coo",
+				"cookie_name"
+			],
+			[
+				"set",
+				"setcookie"
+			],
+			[
+				"int",
+				"interruptHandler"
+			],
+			[
+				"al",
+				"alarmHandler"
+			],
+			[
+				"get",
+				"getppid"
+			],
+			[
+				"wai",
+				"waitChild"
+			],
+			[
+				"tell",
+				"tellChild"
+			],
+			[
+				"wa",
+				"waitParent"
+			],
+			[
+				"pipe",
+				"pipeC"
+			],
+			[
+				"pri",
+				"printOne"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"si",
+				"signalHandler"
+			],
+			[
+				"wri",
+				"writer"
+			],
+			[
+				"F_",
+				"F_RDLCK"
+			],
+			[
+				"l_",
+				"l_type"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"l",
+				"l_whence"
+			],
+			[
+				"_C",
+				"_POSIX_CHOWN_RESTRICTED"
+			],
+			[
+				"stm",
+				"statement"
+			],
+			[
+				"la",
+				"label3"
+			],
+			[
+				"lab",
+				"label1"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"yyl",
+				"yylval"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"fifo",
+				"fifofile"
+			],
+			[
+				"resf",
+				"resfd"
+			],
+			[
+				"it_",
+				"it_value"
+			],
+			[
+				"wait",
+				"waitpid"
+			],
+			[
+				"Ch",
+				"child2"
+			],
+			[
+				"ch",
+				"ch"
+			],
+			[
+				"pip",
+				"pipe1fd"
+			],
+			[
+				"tel",
+				"tellChild"
+			],
+			[
+				"print",
+				"printone"
+			],
+			[
+				"prin",
+				"printone"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"hhs",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"git status",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/aditi/e102/app/router.js",
+		"/home/aditi/e102/app/adapters/application.js",
+		"/home/aditi/e102/app/templates/application.hbs",
+		"/home/aditi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/aditi/e102/app/templates/feed.hbs",
+		"/home/aditi/e102/app/models/posts.js",
+		"/home/aditi/e102/app/routes/posts.js",
+		"/home/aditi/e102/app/templates/feeditem.hbs",
+		"/home/aditi/e102/app/templates/index.hbs",
+		"/home/aditi/e102/app/index.html",
+		"/home/aditi/WorkingWithEmber.txt",
+		"/home/aditi/e102/app/styles/app.css",
+		"/home/aditi/e102/app/app.js",
+		"/home/aditi/e102/app/templates/login.hbs",
+		"/home/aditi/e102/ember-cli-build.js",
+		"/home/aditi/e102/.bowerrc",
+		"/home/aditi/e102/bower.json",
+		"/home/aditi/sample-ember/app/templates/application.hbs",
+		"/home/aditi/emberify/app/js/jquery-2.1.4.min.js",
+		"/home/aditi/emberify/app/js/ember.min.js",
+		"/home/aditi/emberify/app/js/ember-template-compiler.js",
+		"/home/aditi/emberify/app/js/app.js",
+		"/home/aditi/emberify/app/routes.js",
+		"/home/aditi/emberify/server.js",
+		"/home/aditi/nwlab/nw-mail/5.tcl",
+		"/home/aditi/nwlab/nw-mail/netlab codes.txt",
+		"/home/aditi/nwlab/nw-mail/4.tcl",
+		"/home/aditi/nwlab/06/06.awk",
+		"/home/aditi/nwlab/06/06.tcl",
+		"/home/aditi/nwlab/06/06.tr",
+		"/home/aditi/nwlab/04/04.tcl",
+		"/home/aditi/nwlab/03/03.xg",
+		"/home/aditi/nwlab/03/03.tcl",
+		"/home/aditi/nwlab/03/03.awk",
+		"/home/aditi/nwlab/02/02.tr",
+		"/home/aditi/nwlab/02/02.awk",
+		"/home/aditi/nwlab/02/02.tcl",
+		"/home/aditi/nwlab/01/01.xg",
+		"/home/aditi/nwlab/01/01.tcl",
+		"/home/aditi/nwlab/01/01.tr",
+		"/home/aditi/nwlab/01/01.awk",
+		"/home/aditi/Downloads/ns/1.tcl",
+		"/home/aditi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/aditi/.bashrc",
+		"/home/aditi/ns-allinone-2.35/ns-2.35/linkstate/ls.h",
+		"/home/aditi/1.awk",
+		"/home/aditi/1.tcl",
+		"/home/aditi/nwlab/07/07.cpp",
+		"/home/aditi/Documents/ns/ns-allinone-2.35/01.tcl",
+		"/home/aditi/.bash",
+		"/home/aditi/nwlab/nw-mail/partB/distvect.c",
+		"/home/aditi/nwlab/08/08.c",
+		"/home/aditi/nwlab/08/08.cpp",
+		"/home/aditi/nwlab/12/12.cpp",
+		"/home/aditi/nwlab/nw-mail/partB/12.c",
+		"/home/aditi/nwlab/nw-mail/partB/12fsmk.c",
+		"/home/aditi/nwlab/10/server.cpp",
+		"/home/aditi/nwlab/10/client.cpp",
+		"/home/aditi/nwlab/09/server.cpp",
+		"/home/aditi/nwlab/09/client.cpp",
+		"/home/aditi/wireless-info",
+		"/home/aditi/Documents/ns/ns-allinone-2.35/install",
+		"/home/aditi/Downloads/ns-allinone-2.35/otcl-1.14/Makefile.in",
+		"/home/aditi/Downloads/ns-allinone-2.35/ns-2.35/linkstate/ls.h",
+		"/home/aditi/Downloads/ns-allinone-2.35/otcl-1.14/Makefile",
+		"/home/aditi/Downloads/ns-allinone-2.35/Makefile",
+		"/home/aditi/nwlab/11.cpp",
+		"/home/aditi/nwlab/eleven/11.cpp",
+		"/home/aditi/nwlab/eleven/11_fsmk.cpp",
+		"/home/aditi/nwlab/11_fsmk.cpp",
+		"/home/aditi/nwlab/11_int.cpp",
+		"/home/aditi/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/aditi/emberify/app/index.html",
+		"/home/aditi/embr/myapp/ember-cli-build.js",
+		"/home/aditi/emberify/app/app.js",
+		"/home/aditi/embr/file.txt",
+		"/home/aditi/embr/myapp/app/app.js",
+		"/home/aditi/emberify/.gitignore",
+		"/home/aditi/emberify/package.json",
+		"/home/aditi/emberify/app/lol.html",
+		"/home/aditi/ questions-sambit",
+		"/var/www/html/emberapp/index.html",
+		"/var/www/html/emberapp/app.js",
+		"/var/www/html/emberapp/ember.min.js",
+		"/home/aditi/emberapp/index.html",
+		"/home/aditi/emberapp/app.js",
+		"/home/aditi/embr/myapp/app/index.html",
+		"/home/aditi/.profile",
+		"/usr/bin/git",
+		"/home/aditi/trial/app/router.js",
+		"/home/aditi/trial/app/index.html",
+		"/home/aditi/examples.desktop",
+		"/home/aditi/inquizit/poc/public/index.html",
+		"/home/aditi/inquizit/demo1/package.json",
+		"/home/aditi/Desktop/inQ.desktop",
+		"/home/aditi/Desktop/WebLabRepo.desktop",
+		"/home/aditi/Desktop/NWLabRepo.desktop",
+		"/var/www/html/ques",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/03/3a.html",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/03/3b.html",
+		"/home/aditi/Desktop/vtu-res.desktop",
+		"/home/aditi/Desktop/inq.desktop",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/02/2b.html",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/02/2a.html",
+		"/var/log/apache2/error.log",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/01/1b.html",
+		"/home/aditi/vtu-cse-resources/10CSL78-Web_Programming_Lab/01/1a.html",
+		"/var/www/html/4b.xsl",
+		"/var/www/html/4b.xml",
+		"/var/www/html/4a.xml",
+		"/var/www/html/4a.css",
+		"/var/cgi-bin/5a.pl",
+		"/var/cgi-bin/5b.pl",
+		"/var/www/html/9.php",
+		"/var/cgi-bin/7.pl",
+		"/var/cgi-bin/6b.pl",
+		"/var/cgi-bin/6a.pl",
+		"/var/cgi-bin/count.txt",
+		"/var/cgi-bin/8.pl",
+		"/var/www/html/8.html",
+		"/var/www/html/10.php",
+		"/var/log/ques",
+		"/var/www/html/11insert.php",
+		"/var/www/html/11search.php",
+		"/var/www/html/11.html",
+		"/home/aditi/wli/11.html",
+		"/home/aditi/wli/11search.php",
+		"/home/aditi/wli/11insert.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/aditi/e102/app/",
+			"/home/aditi/e102/",
+			"/home/aditi/e102/*",
+			"Current Directory",
+			"all"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ember-data",
+			"  {{#",
+			"$n$des",
+			"$n$src",
+			"$n$i",
+			"tcp",
+			"enl",
+			"p_len",
+			" nam",
+			"nam",
+			"/home/akshay/ns-allinone-2.35",
+			"\" ",
+			"of",
+			"root",
+			"Square",
+			";\n",
+			"third",
+			"second",
+			"first",
+			"waitChild",
+			"child"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$n($des)",
+			"$n($src)",
+			"$n($i)",
+			"poly_len",
+			"/home/aditi/Documents/ns/ns-allinone-2.35",
+			"three",
+			"two",
+			"one"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "e102.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
