@@ -1,0 +1,13 @@
+nav {
+	width: 100%;
+	max-height: 75px;
+}
+
+nav > ul {
+	
+}
+
+nav ul > li {
+	display: inline-block;
+	padding-right: 30px;
+}

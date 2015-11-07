@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+	this.route('feed', { 'path' : '/newsfeed'});
+	this.route('login');
 });
 
 export default Router;
