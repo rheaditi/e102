@@ -364,10 +364,10 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "app/router.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 349,
 				"line_ending": "Unix"
 			}
 		}
@@ -424,23 +424,36 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/aditi/e102",
+		"/home/aditi/e102/app",
+		"/home/aditi/e102/app/adapters",
+		"/home/aditi/e102/app/models",
+		"/home/aditi/e102/app/routes",
+		"/home/aditi/e102/server",
+		"/home/aditi/e102/server/mocks"
+	],
 	"file_history":
 	[
-		"/home/aditi/e102/app/router.js",
-		"/home/aditi/e102/app/adapters/application.js",
 		"/home/aditi/e102/app/templates/application.hbs",
+		"/home/aditi/e102/app/router.js",
+		"/home/aditi/e102/app/routes/posts.js",
+		"/home/aditi/e102/app/models/post.js",
+		"/home/aditi/e102/server/mocks/posts.js",
+		"/home/aditi/e102/app/app.js",
+		"/home/aditi/e102/ember-cli-build.js",
+		"/home/aditi/e102/app/templates/posts.hbs",
+		"/home/aditi/e102/app/adapters/application.js",
 		"/home/aditi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/aditi/e102/app/templates/feed.hbs",
 		"/home/aditi/e102/app/models/posts.js",
-		"/home/aditi/e102/app/routes/posts.js",
 		"/home/aditi/e102/app/templates/feeditem.hbs",
 		"/home/aditi/e102/app/templates/index.hbs",
 		"/home/aditi/e102/app/index.html",
 		"/home/aditi/WorkingWithEmber.txt",
 		"/home/aditi/e102/app/styles/app.css",
-		"/home/aditi/e102/app/app.js",
 		"/home/aditi/e102/app/templates/login.hbs",
-		"/home/aditi/e102/ember-cli-build.js",
 		"/home/aditi/e102/.bowerrc",
 		"/home/aditi/e102/bower.json",
 		"/home/aditi/sample-ember/app/templates/application.hbs",
@@ -550,10 +563,7 @@
 		"/var/log/ques",
 		"/var/www/html/11insert.php",
 		"/var/www/html/11search.php",
-		"/var/www/html/11.html",
-		"/home/aditi/wli/11.html",
-		"/home/aditi/wli/11search.php",
-		"/home/aditi/wli/11insert.php"
+		"/var/www/html/11.html"
 	],
 	"find":
 	{
@@ -627,24 +637,24 @@
 			[
 				{
 					"buffer": 0,
+					"file": "app/router.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 349,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								293,
+								293
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

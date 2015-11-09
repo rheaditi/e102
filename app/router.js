@@ -7,8 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 	this.route('feed', { 'path' : '/newsfeed'});
-	this.route('posts', function () {
-		
+	this.resource('posts', function (){
+		this.route('post', { path: '/:post_id'});
 	});
 	this.route('login');
 });
