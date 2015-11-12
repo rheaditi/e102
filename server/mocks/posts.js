@@ -1,30 +1,34 @@
 module.exports = function(app) {
   var express = require('express');
   var postsRouter = express.Router();
-
-  postsRouter.get('/', function(req, res) {
-    res.send({
+  var postsData = {
       'posts': [
       {
         id: 1,
         title: 'Bananas',
         author: 'BananaMan',
-        date: '15 Sept 2005'
+        date: '23 September 2015',
+        content: 'Why did the chicken cross the road?'
       },
       {
         id: 2,
         title: 'Apples',
         author: 'Mac',
-        date: '15 Sept 2005'
+        date: '15 November 2015',
+        content: 'How do you know Lady Gaga is dead?'
       },
       {
         id: 3,
         title: 'Whats up',
         author: 'SomeGuy',
-        date: '23 Sept 2005'
+        date: '01 January 2016',
+        content: 'The age old question and its underwhelming answers?'
       }
       ]
-    });
+    };
+
+  postsRouter.get('/', function(req, res) {
+    res.send(postsData);
   });
 
   postsRouter.post('/', function(req, res) {
@@ -32,11 +36,7 @@ module.exports = function(app) {
   });
 
   postsRouter.get('/:id', function(req, res) {
-    res.send({
-      'posts': {
-        id: req.params.id
-      }
-    });
+    res.send(postsData.posts[req.params.id-1]);
   });
 
   postsRouter.put('/:id', function(req, res) {
