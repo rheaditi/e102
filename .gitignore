@@ -1,7 +1,10 @@
 # compiled output
 dist
 tmp
+
+# test related
 tests
+
 # dependencies
 node_modules
 bower_components
