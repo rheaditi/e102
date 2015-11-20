@@ -1,20 +1,28 @@
 <div class="container">
-	<div class="col-xs-6 col-xs-offset-3">
-		<div class="panel panel-danger">
-			<div class="panel-heading">
-				<h4>Index</h4>
-			</div>
-			<div class="panel-body">
-			<ul>
-			  {{#each model as |color|}}
-			    <li>{{color}}</li>
-			  {{/each}}
-			</ul>		
-			</div>
-		</div>		
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+			{{search-box value=searchTerm}}
+			{{search-suggest query=searchTerm suggestions=searchResults}}
+			<br /><br /><br /> {{searchTerm}}
+		</div>
+		<br /><br /><br /><br /><br /><br /><br /><br />
 	</div>
-	
-	
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+			<div class="panel panel-danger">
+				<div class="panel-heading">
+					<h4>Index</h4>
+				</div>
+				<div class="panel-body">
+				<ul>
+				  {{#each model as |color|}}
+				    <li>{{color}}</li>
+				  {{/each}}
+				</ul>		
+				</div>
+			</div>		
+		</div>	
+	</div>
 
 </div>
 
