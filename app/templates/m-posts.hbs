@@ -1,5 +1,29 @@
 <div class="container">
-	<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-		<h1>Embedded posts coming up!</h1>
+	<div class="row">
+		<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+			<h1>Embedded posts coming up!</h1>
+		</div>
+	</div>
+
+
+	<div class="row">
+		{{#each model as |m-post|}}
+			<div class="panel panel-default">
+				<div class="panel-heading clearfix">
+					<span class="pull-right">
+						<a href="{{m-post.url}}">Permalink</a>
+					</span>
+					<span class="pull-left">
+						{{m-post.author}}
+					</span>
+				</div>
+
+				<div class="panel-body">
+					{{#each post.embed as |embed|}}
+						{{embed.title}}
+					{{/each}}
+				</div>
+			</div>
+		{{/each}}
 	</div>
 </div>

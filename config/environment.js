@@ -10,9 +10,9 @@ module.exports = function(environment) {
     'default-src': "'none'",
     'script-src': "'self'",
     'font-src': "'self'",
-    'connect-src': "'self' http://poc-inquizit-api.herokuapp.com",
+    'connect-src': "'self' https://poc-inquizit-api.herokuapp.com",
     'img-src': "'self'",
-    'style-src': "'self'",
+    'style-src': "'self' 'unsafe-inline'",
     'media-src': "'self'"
     },
     EmberENV: {
