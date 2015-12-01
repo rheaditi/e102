@@ -11,7 +11,8 @@ Router.map(function() {
   this.route('posts', { path: '/feed' }, function(){
   	this.route('post', { path : '/:post_id'});
   });
-  
+  this.route('m-posts', { path: '/news'});
+
   this.route('404', { path: '/*wildcard' });
 });
 
