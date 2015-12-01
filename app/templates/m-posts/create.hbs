@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+		<form class="form-horizontal col-xs-6 col-xs-offset-3">
+      <div class="form-group">
+        <label for="author">Created By:</label>
+        {{input value=author  name='author'}}
+      </div>
+
+      <div class="form-group">
+        <label for="url">Embed URL:</label>
+        {{input value=url required=true name='url'}}
+      </div>
+
+      <div class="form-group">
+        {{input type='reset' value='Clear' class='btn btn-danger'}}
+        <button {{action "embedCreate" author url key on="click"}} class="btn btn-success">Create</button>
+      </div>
+    </form>
+	</div>
+
+	<div class="row">
+	<br /><br /><br /><br />
+		<div class="col-xs-8 col-xs-offset-2">
+{{!-- 			<pre>
+				author: {{author}},
+				url: {{url}},
+				isLoaded: {{isLoaded}}{{#if isLoaded}},
+				embed: loaded
+				{{/if}}
+			</pre> --}}
+			{{#if isLoading}}
+				<h4>Loading your embed. Please wait..</h4>
+			{{/if}}
+		  {{#if isLoaded}}
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<a href="{{embed.url}}" target="_blank">{{embed.title}}</a> <span style="opacity:0.5; font-size: 0.8em">({{embed.provider_url}})</span>
+					</div>
+					<div class="panel-body">
+						<div class="col-xs-2">
+							<img src="{{embed.thumbnail_url}}" class="img-thumbnail" />
+						</div>
+						<div class="col-xs-10">
+							<p>
+								{{embed.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+		  {{/if}}
+		</div>
+	</div>
+</div>
+

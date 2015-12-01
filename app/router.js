@@ -7,11 +7,15 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('login');
-  // this.route('posts');
+
   this.route('posts', { path: '/feed' }, function(){
   	this.route('post', { path : '/:post_id'});
   });
-  this.route('m-posts', { path: '/news'});
+
+  this.route('m-posts', { path: '/news'}, function() {
+  	this.route('index', { path: '/' });
+  	this.route('create', { path: '/create' })
+  });
 
   this.route('404', { path: '/*wildcard' });
 });

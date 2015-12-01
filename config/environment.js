@@ -10,7 +10,7 @@ module.exports = function(environment) {
     'default-src': "'none'",
     'script-src': "'self'",
     'font-src': "'self'",
-    'connect-src': "'self' https://poc-inquizit-api.herokuapp.com",
+    'connect-src': "'self' https://poc-inquizit-api.herokuapp.com http://api.embed.ly/1/oembed",
     'img-src': "'self'",
     'style-src': "'self' 'unsafe-inline'",
     'media-src': "'self'"
