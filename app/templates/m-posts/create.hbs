@@ -1,9 +1,68 @@
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-		<form class="form-horizontal col-xs-6 col-xs-offset-3">
+		<div class="col-xs-10 col-xs-offset-1">
+			
+			<div class="form-create col-xs-5">
+				<form class="panel panel-default">
+					<div class="panel-heading">
+						Create A Post
+					</div>
+					<div class="panel-body form-horizontal">
+
+						<div class="form-group">
+							<label for="creator" class="col-xs-2 control-label">Username:</label>
+							<div class="col-xs-10">
+								{{input name='creator' value=creator required=true}}
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="question" class="col-xs-2 control-label">Question:</label>
+							<div class="col-xs-10">
+								{{input name='question' value=question required=true}}
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="description" class="col-xs-2 control-label">Description:</label>
+							<div class="col-xs-10">
+								{{input name='description' value=description required=true}}
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="url" class="col-xs-2 control-label">Embed URL:</label>
+							<div class="col-xs-10">
+								{{input name='url' value=url required=true}}
+							</div>
+						</div>
+
+					</div>
+					<div class="panel-footer">
+		        	<button type='reset' class='btn btn-danger'>Clear</button>
+		        	<button {{action "embedFetch" url on="click"}} class="btn btn-success">Create</button>
+					</div>
+				</form>
+			</div>
+			
+			<div class="form-view col-xs-7 ">
+				<div class="panel panel-primary">
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+{{!-- <div class="container">
+	<div class="row">
+		<form class="form-horizontal col-xs-5">
       <div class="form-group">
-        <label for="author">Created By:</label>
-        {{input value=author  name='author'}}
+        <label for="creator">Username:</label>
+        {{input value=creator  name='creator'}}
       </div>
 
       <div class="form-group">
@@ -13,21 +72,11 @@
 
       <div class="form-group">
         {{input type='reset' value='Clear' class='btn btn-danger'}}
-        <button {{action "embedCreate" author url key on="click"}} class="btn btn-success">Create</button>
+        <button {{action "embedFetch" url on="click"}} class="btn btn-success">Create</button>
       </div>
     </form>
-	</div>
 
-	<div class="row">
-	<br /><br /><br /><br />
-		<div class="col-xs-8 col-xs-offset-2">
-{{!-- 			<pre>
-				author: {{author}},
-				url: {{url}},
-				isLoaded: {{isLoaded}}{{#if isLoaded}},
-				embed: loaded
-				{{/if}}
-			</pre> --}}
+		<div class="col-xs-7">
 			{{#if isLoading}}
 				<h4>Loading your embed. Please wait..</h4>
 			{{/if}}
@@ -44,11 +93,15 @@
 							<p>
 								{{embed.description}}
 							</p>
+							
+						</div>
+						<div class="col-xs-12">
+							{{{embed.html}}}
 						</div>
 					</div>
 				</div>
 		  {{/if}}
 		</div>
 	</div>
-</div>
+</div> --}}
 

@@ -14,7 +14,7 @@ Router.map(function() {
 
   this.route('m-posts', { path: '/news'}, function() {
   	this.route('index', { path: '/' });
-  	this.route('create', { path: '/create' })
+  	this.route('create', { path: '/create' });
   });
 
   this.route('404', { path: '/*wildcard' });
