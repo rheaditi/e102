@@ -8,4 +8,4 @@ tests
 # dependencies
 node_modules
 bower_components
-!bower_components/bootstrap
+!bower_components/bootstrap/
