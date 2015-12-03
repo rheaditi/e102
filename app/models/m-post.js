@@ -5,5 +5,5 @@ export default DS.Model.extend({
   creator: attr('String'),
   description: attr('String'),
   embedded_content: attr(),
-  creator_at : attr('date')
+  created_at : attr('date')
 });

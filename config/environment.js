@@ -7,13 +7,16 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     contentSecurityPolicy: {
+
+    /* Refer to: http://content-security-policy.com/ for details */
     'default-src': "'none'",
     'script-src': "'self'",
     'font-src': "'self'",
     'connect-src': "'self' https://poc-inquizit-api.herokuapp.com http://api.embed.ly/1/oembed",
-    'img-src': "'self'",
+    'img-src': "'self' *",
     'style-src': "'self' 'unsafe-inline'",
-    'media-src': "'self'"
+    'media-src': "'self'",
+    'frame-src': "http://cdn.embedly.com"
     },
     EmberENV: {
       FEATURES: {
@@ -32,7 +35,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+    ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 

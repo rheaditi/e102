@@ -6,13 +6,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('login');
+  this.route('index', { path: '/searchtest'} );
 
   this.route('posts', { path: '/feed' }, function(){
   	this.route('post', { path : '/:post_id'});
   });
 
-  this.route('m-posts', { path: '/news'}, function() {
+  this.route('m-posts', { path: '/'}, function() {
   	this.route('index', { path: '/' });
   	this.route('create', { path: '/create' });
   });

@@ -32,10 +32,6 @@ nav.nav-inq span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
 	visibility: hidden;
 }
 
-.muted {
-	opacity: 0.7;
-}
-
 input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea {
 	border: none;
 	border-bottom: 1px solid #e1e1e1;
@@ -61,6 +57,10 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 	opacity: 0.7;
 }
 
+.smaller{
+	font-size: 0.83em;
+}
+
 .form-view .panel-heading, .form-view .panel-heading a {
 	color: #ffffff;
 }
@@ -76,4 +76,10 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 
 .embed-loading > .fa {
 	font-size: 3em;
+}
+
+.form-view iframe, .embedly_foursquare, .embedly_foursquare_map > img {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 10px;
 }
