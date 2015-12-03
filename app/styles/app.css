@@ -56,3 +56,24 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 	
 	box-shadow: none;
 }
+
+.muted {
+	opacity: 0.7;
+}
+
+.form-view .panel-heading, .form-view .panel-heading a {
+	color: #ffffff;
+}
+
+.provider_url {
+	font-size: 0.9em;
+	margin-left: 1em;
+}
+
+.embed-loading {
+	text-align: center;
+}
+
+.embed-loading > .fa {
+	font-size: 3em;
+}

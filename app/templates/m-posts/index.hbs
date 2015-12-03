@@ -9,23 +9,28 @@
 	
 	<div class="row">
 
-		{{!-- {{#each model as |m-post|}}
+		{{#each model as |m-post|}}
 			<div class="panel panel-default">
 				<div class="panel-heading clearfix">
 					<span class="pull-right">
 						<a href="{{m-post.url}}">Permalink</a>
 					</span>
 					<span class="pull-left">
-						{{m-post.author}}
+						{{m-post.creator}} asked {{m-post.question}}
 					</span>
 				</div>
 
 				<div class="panel-body">
-					{{#each post.embed as |embed|}}
-						{{embed.title}}
-					{{/each}}
+					{{m-post.description}}
+					<p>
+						{{m-post.embedded_content.title}}
+						<img src="{{m-post.embedded_content.thumbnail_url}}" alt="" style="max-width: 300px">
+						<div>
+							{{{m-post.embedded_content.html}}}
+						</div>
+					</p>
 				</div>
 			</div>
-		{{/each}} --}}
+		{{/each}}
 	</div>
 </div>

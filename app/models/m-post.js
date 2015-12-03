@@ -1,7 +1,9 @@
 import DS from 'ember-data';
-
+var attr = DS.attr;
 export default DS.Model.extend({
-  url: DS.attr('string'),
-  author: DS.attr('string'),
-  embed: DS.belongsTo('embed')
+  question: attr('String'),
+  creator: attr('String'),
+  description: attr('String'),
+  embedded_content: attr(),
+  creator_at : attr('date')
 });
