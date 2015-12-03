@@ -19,15 +19,7 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
-app.import('bower_components/bootstrap/dist/css/bootstrap.css');
-app.import('bower_components/font-awesome/css/font-awesome.css');
-app.import('bower_components/font-awesome/css/font-awesome.css.map');
-app.import('bower_components/font-awesome/fonts/FontAwesome.otf');
-app.import('bower_components/font-awesome/fonts/fontawesome-webfont.eot');
-app.import('bower_components/font-awesome/fonts/fontawesome-webfont.svg');
-app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf');
-app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff');
-app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff2');
+app.import('app/styles/bootstrap-compiled.css');
 app.import('bower_components/jquery/dist/jquery.js');
 app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 
