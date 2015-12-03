@@ -6,18 +6,25 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('index', { path: '/searchtest'} );
+  this.route('newsfeed', { path: '/' } );
+  this.route('createPost' , { path: '/create' });
+
+
+  this.route('m-posts', { path: '/mposts'}, function() {
+    this.route('index', { path: '/mposts/index' });
+    this.route('create', { path: '/mposts/create' });
+  });
+
+  this.route('index', { path: '/index'} );
 
   this.route('posts', { path: '/feed' }, function(){
   	this.route('post', { path : '/:post_id'});
   });
 
-  this.route('m-posts', { path: '/'}, function() {
-  	this.route('index', { path: '/' });
-  	this.route('create', { path: '/create' });
-  });
+
 
   this.route('404', { path: '/*wildcard' });
+  this.route('temp-typeahead');
 });
 
 export default Router;
